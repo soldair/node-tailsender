@@ -1,0 +1,21 @@
+{
+  "name": "tailsender",
+  "description": "a companion to tailreceiver. its a simple forever stream for sending log like data that reconnects to its target server.",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/soldair/node-tailsender.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "Ryan Day",
+  "dependencies": {
+    "floody": "~0.0.1",
+    "through": "~2.2.7",
+    "backoff": "~2.0.0"
+  },
+  "devDependencies": {
+    "tap": "~0.2.5"
+  }
+}
